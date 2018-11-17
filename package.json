@@ -1,0 +1,40 @@
+{
+  "name": "stdio-stdout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "jest ./src/**/*.test.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.5",
+    "babel-cli": "^6.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.6.0",
+    "regenerator-runtime": "^0.12.1"
+  },
+  "dependencies": {
+    "kleur": "^3.0.0",
+    "list": "^2.0.16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nabetama-training/node-stdio-stdout.git"
+  },
+  "keywords": [
+    "node",
+    "stdio",
+    "stdout"
+  ],
+  "author": "Mao Nabeta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nabetama-training/node-stdio-stdout/issues"
+  },
+  "homepage": "https://github.com/nabetama-training/node-stdio-stdout#readme"
+}
